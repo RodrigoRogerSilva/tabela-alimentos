@@ -1,0 +1,58 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo da tabela */
+  table {
+    width: 100%;
+    border-collapse: separate; /* Modificado de collapse para separate para garantir bordas visíveis */
+    border-spacing: 0px; /* Espaçamento entre células */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Borda externa da tabela */
+  }
+  
+  /* Estilo para as células e as colunas */
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borda visível entre as células */
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  /* Estilo para linhas alternadas */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para as imagens (logotipos) */
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para os valores nutricionais */
+  td {
+    font-size: 14px;
+  }
+  
